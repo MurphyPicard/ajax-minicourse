@@ -1,4 +1,5 @@
 This is a project I built with assistance of Udacity.
+It's nice to go through tutorials like this and visually see results.
 
 The purpose is to practice using APIs in 3 ways.
 
