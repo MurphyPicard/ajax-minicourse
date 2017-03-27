@@ -73,7 +73,11 @@ function loadData() {
       success: function(response){
         console.log("this is response: " + response[1]);
         var articleList = response[1];
+
         for( var i = 0; i < articleList.length; i++){
+          articleStr = articleList[i];
+          var url = 'http://en.wikipedia.org/wiki/' + articleStr;
+          $wikiElem.append('<li><a href="' + url + '">' + articleStr + '</a></li>');
           console.log("this is articleList[i]: " + articleList[i]);
         }
       }
